@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title> Website Abbi </title>
+    <meta charset="utf-8" />
+    <link type="text/css" rel="stylesheet" href="css/style.css" />
+</head>
+
+<body>
+    <header>
+        <div class="navbar">
+
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="hobbies.html">Hobbies</a></li>
+                <li><a href="watdoeik.html">Wat doe ik??</a></li>
+                <li><a class="active" href="contact.html">Contact</a></li>
+            </ul>
+        </div>
+    </header>
+    <div class="overmij">
+        <h2>Contact</h2>
+    </div>
+
+    <div class="containercontact">
+        <form>
+            <label for="fname">Naam</label>
+            <input type="text" id="fname" name="uw naam" placeholder="Uw naam..">
+
+            <label for="lname">Email</label>
+            <input type="text" id="lname" name="uw email" placeholder="Uw email..">
+
+            <label for="Wat voor vraag">Wat voor vraag</label>
+            <select id="Wat voor vraag" name="Wat voor vraag">
+                <option value="vraag">vraag:</option>
+                <option value="klacht">klacht:</option>
+                <option value="uitnodiging gesprek">uitnodiging gesprek:</option>
+            </select>
+
+            <label for="subject">opmerking</label>
+            <textarea id="subject" name="opmerking" placeholder="Opmerking.." style="height:200px"></textarea>
+
+            <input type="submit" value="Submit">
+        </form>
+    </div>
+    <div class="indelingcontact">
+        <div class="over_contacttekst">
+            <p>
+            <div class="buttonindeling">
+                <div class="button"
+                    onclick='alert("Naam: Abbiraam Sinnathamby  Nummer: 0618920693                          Email: abbisinnathamby09@gmail.com")'>
+                    klik hier contactgegevens </div>
+                </p>
+                <br>
+                <a href="https://www.instagram.com/abbi_1406/" class="button">
+                    instagram</a>
+            </div>
+        </div>
+
+
+
+        <div class="images-containerwat">
+            <img src="fotocontact.png" alt="image1">
+
+        </div>
+    </div>
+
+    <footer>
+        <p>Copyright &copy;
+            <script type="text/javascript">
+                var theDate = new Date()
+                document.write(theDate.getFullYear());
+            </script> | Abbi's website |
+        </p>
+    </footer>
+</body>
+
+</html>
